@@ -13,14 +13,14 @@ public class GreeterTest {
     }
     @Test
     public void sayGoodMorning(){
-        assertThat(greeter.sayGoodMorning(),containsString("Hello"));
+        assertThat(greeter.sayGoodMorning(),containsString("Morning"));
     }
     @Test
     public void sayGoodEvening(){
-        assertThat(greeter.sayGoodEvening(),containsString("Hello"));
+        assertThat(greeter.sayGoodEvening(),containsString("Evening"));
     }
     @Test
     public void sayGoodNight(){
-        assertThat(greeter.sayGoodNight(),containsString("Hello"));
+        assertThat(greeter.sayGoodNight(),containsString("Night"));
     }
 }

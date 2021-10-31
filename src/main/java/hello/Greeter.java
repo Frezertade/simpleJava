@@ -5,12 +5,12 @@ public class Greeter {
         return "Hello world!";
     }
     public String sayGoodMorning() {
-        return "Good Morning(!";
+        return "Good Morning";
     }
     public String sayGoodEvening() {
-        return "Hello world!";
+        return "Good Evening!";
     }
     public String sayGoodNight() {
-        return "Hello world!";
+        return "Good Night!";
     }
 }
