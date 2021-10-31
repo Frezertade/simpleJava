@@ -11,4 +11,16 @@ public class GreeterTest {
     public void greeterSayHello(){
         assertThat(greeter.sayHello(),containsString("Hello"));
     }
+    @Test
+    public void sayGoodMorning(){
+        assertThat(greeter.sayGoodMorning(),containsString("Hello"));
+    }
+    @Test
+    public void sayGoodEvening(){
+        assertThat(greeter.sayGoodEvening(),containsString("Hello"));
+    }
+    @Test
+    public void sayGoodNight(){
+        assertThat(greeter.sayGoodNight(),containsString("Hello"));
+    }
 }
